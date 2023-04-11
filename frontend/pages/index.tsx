@@ -1,3 +1,4 @@
+import TaskInput from '@/components/TaskInput/TaskInput'
 import Head from 'next/head'
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
       </Head>
       <main>
         <h1>ToDo List</h1>
+        <TaskInput />
       </main>
     </>
   )
